@@ -39,6 +39,15 @@ const novels = [
       "A tale of an immortal seeking purpose in a mortal realm. A tale of an immortal seeking purpose in a mortal realm. A tale of an immortal seeking purpose in a mortal realm.",
     imageUrl: portrait2,
   },
+  {
+    title: "Immortal Chronicles",
+    author: "Zhen Wu",
+    tags: ["Immortal", "Adventure"],
+    stars: 4.7,
+    description:
+      "A tale of an immortal seeking purpose in a mortal realm. A tale of an immortal seeking purpose in a mortal realm. A tale of an immortal seeking purpose in a mortal realm.",
+    imageUrl: portrait2,
+  },
 ];
 
 const TrendingSection = () => {
