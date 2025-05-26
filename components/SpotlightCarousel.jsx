@@ -3,6 +3,8 @@ import { FaPlay } from "react-icons/fa";
 import l1 from "../assets/landscape-.jpg";
 import l2 from "../assets/landscape-2.jpg";
 import l3 from "../assets/landscape-3.jpg";
+import p1 from "../assets/portrait-1.jpg";
+import p2 from "../assets/portrait-2.jpg";
 
 const spotlightData = [
   {
@@ -10,7 +12,7 @@ const spotlightData = [
     tags: ["#Adventure", "#Pirates", "#Action"],
     description:
       'Gold Roger was known as the "Pirate King," the strongest and most infamous being to have sailed...Naruto continues his quest to become Hokage while confronting dangerous enemies and his past.',
-    imageMobile: "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+    imageMobile: p2,
     imageDesktop: l1,
   },
   {
@@ -18,7 +20,7 @@ const spotlightData = [
     tags: ["#Ninja", "#Battle", "#Shonen"],
     description:
       "Naruto continues his quest to become Hokage while confronting dangerous enemies and his past. Lorem ipsum dolor sit amet, consectetur adipiscing elit Naruto continues his quest to become Hokage while confronting dangerous enemies and his past.",
-    imageMobile: "https://cdn.myanimelist.net/images/anime/5/17407.jpg",
+    imageMobile: p1,
     imageDesktop: l2,
   },
   {
@@ -26,7 +28,7 @@ const spotlightData = [
     tags: ["#Survival", "#Drama", "#Fantasy"],
     description:
       "In a world where giants rule, humanity fights for survival behind massive walls. Naruto continues his quest to become Hokage while confronting dangerous enemies and his past.Naruto continues his quest to become Hokage while confronting dangerous enemies and his past.",
-    imageMobile: "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+    imageMobile: p2,
     imageDesktop: l3,
   },
 ];
