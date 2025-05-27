@@ -37,7 +37,7 @@ const popularManga = [
 const PopularToday = () => {
   return (
     <div className="p-4 text-white bg-[#06111f]  max-w-5xl ">
-      <h2 className="text-xl font-bold mb-4 text-green-500">Trending</h2>
+      <h2 className="text-xl font-bold mb-4 ">Trending</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {popularManga.map((manga, index) => (
           <div 

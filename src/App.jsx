@@ -6,6 +6,8 @@ import Header from "../components/Header";
 import PopularNovels from "../components/PopularNovels";
 // import TrendingSection from "../components/Trending";
 import TrendingSection from "../components/TrendingSection";
+import RecentUpdates from "../components/RecentUpdates";
+import Footer from "../components/Footer";
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       {/* <PopularToday />
        */}
        <TrendingSection />
+       <RecentUpdates />
        
 
     </section>
@@ -29,7 +32,10 @@ function App() {
 
       <PopularNovels />
     </section>
+    
 </section>
+
+<Footer />
 
     </main>
   );

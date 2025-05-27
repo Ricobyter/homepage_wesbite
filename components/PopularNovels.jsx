@@ -179,7 +179,7 @@ const PopularNovels = () => {
 
   return (
     <div className="bg-[#06111f] text-white p-4 rounded-md max-w-lg ">
-      <h2 className="text-xl md:text-2xl font-bold mb-4 text-green-500">Popular</h2>
+      <h2 className="text-2xl md:text-3xl font-semibold mb-4 ">Popular</h2>
 
       {/* Tabs */}
       <div className="flex bg-[#091428] rounded-md overflow-hidden mb-4">
@@ -201,8 +201,8 @@ const PopularNovels = () => {
       {/* Novels List */}
       <div className="space-y-4">
         {novelData[activeTab]?.map((novel, idx) => (
-          <div key={idx} className="flex items-start gap-3 border-b border-gray-700 pb-4">
-            <div className="text-gray-400 w-6 text-center">{idx + 1}</div>
+          <div key={idx} className="flex items-start gap-3 border-b rounded-md shadow-md border-none bg-[#091428] pb-4">
+            <div className="text-gray-200 w-6 text-center">{idx + 1}</div>
             <img src={novel.image} className="w-14 h-20 object-cover rounded" alt={novel.title} />
             <div>
               <h3 className="font-bold text-white line-clamp-1">{novel.title}</h3>
